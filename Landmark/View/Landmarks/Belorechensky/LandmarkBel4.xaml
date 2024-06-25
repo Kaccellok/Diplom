@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Belorechensky.LandmarkBel4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Belorechensky"
+        mc:Ignorable="d"
+        Title="Заезжий дом купца И.В. Иконникова" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Belorechensky/zaezzhiy.jpg" MaxWidth="600" Width="605" Margin="5" Height="294" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="В 1907 году в станице Белореченской купец Иван Васильевич Иконников построил заезжий дом — гостиницу. Кирпичное здание в стиле русской архитектуры, декорированное ажурными наличниками, полуколоннами и зубчатым фризом стало настоящим украшением станицы."/><Run Text=" Несмотря на столетний возраст, заезжий дом находится в прекрасном состоянии. В настоящее время в нём располагается детская музыкальная школа."/><LineBreak/><Run/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

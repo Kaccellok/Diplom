@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Krasnodar.Krd5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Krasnodar"
+        mc:Ignorable="d"
+        Title="Свято-Екатериненский Кафедральный Собор" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Krasnodar/st-catherines-cathedral-krasnodar.jpg" MaxWidth="600" Width="498" Margin="5" Height="327" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Храм Святой Екатерины украсил город в 1914-м. При большевиках соборные ценности оказались разграблены, а колокола переплавлены. Здание использовалось под склад, чудом избежав сноса. Снова открыли собор в 1944-м, а к концу столетия восстановили росписи и другие элементы убранства, вернули колокола."/><LineBreak/><Run Text="Сегодня Екатерининский собор исполняет роль кафедрального в Краснодаре. Храм пятиглавый, выполнен в византийском стиле. Над центральным входом возвышается колокольня, а по бокам от нее – две часовенки. Главные святые реликвии собора – икона Казанской Богоматери и частицы мощей Святой Екатерины. "/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

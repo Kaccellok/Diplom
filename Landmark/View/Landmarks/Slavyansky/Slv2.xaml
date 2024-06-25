@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Slavyansky.Slv2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Slavyansky"
+        mc:Ignorable="d"
+        Title="Памятник участникам похода Таманской Красной армии" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Slavyansky/pamyatnik-uchastnikam-pohoda-tamanskoj-krasnoj-armii.jpg" MaxWidth="600" Width="452" Margin="5" Height="326" />
+                <TextBlock TextWrapping="WrapWithOverflow" Text="Монумент, возведённый по проекту проекту художника, профессора А. А. Юнгера с участием художника С. К. Крамского, имеет большую историческую ценность: это один из первых отечечтвенных памятников советского времени. По мнению многих, выглядит он ещё слегка «старомодно», не по-советски."/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

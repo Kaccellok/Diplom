@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Ust_Labinsky.UL3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Ust_Labinsky"
+        mc:Ignorable="d"
+        Title="Храм Рождества Пресвятой Богородицы" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Ust-Labinsky/hram-rozhdestva-presvyatoy-bogoroditsy.jpg" MaxWidth="600" Width="371" Margin="5" Height="292" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="В станице Воронежской находится выдающийся памятник православного зодчества — храм Рождества Пресвятой Богородицы. Он был построен в 1914 году. Это монументальное кирпичное здание в стиле эклектики."/><LineBreak/><Run Text="Четверик храма венчают пять лазурных голов. Они возвышаются на восьмигранных световых барабанах. Щипцовый ризалит, торцы, апсида и трапезная украшены зубчатым фризом и барельефными крестами. В том же стиле выполнена трёхъярусная колокольня. Все окна (в том числе на барабанах) покрыты витражной живописью."/><LineBreak/><Run Text="Храм действовал в годы немецкой оккупации. В 1942 году фашисты обосновали здесь лагерь военнопленных. Известно, что в 1943 году в стенах храма были казнены 3407 советских солдат. Они похоронены на территории церковного парка."/><LineBreak/><Run Text="В 1960-х храм закрыли. Службы возобновились лишь в начале 1980-х. Сегодня храм действует и является историко-культурным памятником станицы."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

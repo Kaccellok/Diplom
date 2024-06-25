@@ -1,0 +1,68 @@
+﻿<Window x:Class="Landmark.View.Districts.DistrictsList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Districts" xmlns:veiwmodels="clr-namespace:Landmark.VeiwModels" 
+        mc:Ignorable="d"
+       Title="Районы" Height="450" Width="800" FontSize="20" FontFamily="Times New Roman" WindowStartupLocation="CenterScreen"
+       >
+    <Grid>
+        
+        <ScrollViewer>
+            <StackPanel>
+
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+                    FontSize="22"
+                    Background="Transparent"
+                    Name="btn_GoBack"
+                    Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                
+                <Button Name="btn_Abn" Click="btn_Abn_Click" Width="auto" Height="60" Content="Абинский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Anapa" Click="btn_Anapa_Click" Width="auto" Height="60" Content="Анапа" Margin="10,5,10,5"/>
+                <Button Name="btn_Apsh" Click="btn_Apsh_Click" Width="auto" Height="60" Content="Апшеронский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Arm" Click="btn_Arm_Click" Width="auto" Height="60" Content="Армавир" Margin="10,5,10,5"/>
+                <Button Name="btn_Blg" Click="btn_Blg_Click" Width="auto" Height="60" Content="Белоглинский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Brh" Click="btn_Brh_Click" Width="auto" Height="60" Content="Брюховецкий район" Margin="10,5,10,5"/>
+                <Button Name="btn_Vsl" Click="btn_Vsl_Click" Width="auto" Height="60" Content="Выселковский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Gel" Click="btn_Gel_Click" Width="auto" Height="60" Content="Геленджик" Margin="10,5,10,5"/>
+                <Button Name="btn_Gor" Click="btn_Gor_Click" Width="auto" Height="60" Content="Горячий Ключ" Margin="10,5,10,5"/>
+                <Button Name="btn_Glk" Click="btn_Glk_Click" Width="auto" Height="60" Content="Гулькевичский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Din" Click="btn_Din_Click" Width="auto" Height="60" Content="Динской район" Margin="10,5,10,5"/>
+                <Button Name="btn_Eysk" Click="btn_Eysk_Click" Width="auto" Height="60" Content="Ейский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Kvkz" Click="btn_Kvkz_Click" Width="auto" Height="60" Content="Кавказский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Kln" Click="btn_Kln_Click" Width="auto" Height="60" Content="Калининский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Knv" Click="btn_Knv_Click" Width="auto" Height="60" Content="Каневской район" Margin="10,5,10,5"/>
+                <Button Name="btn_Krn" Click="btn_Krn_Click" Width="auto" Height="60" Content="Кореновский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Krs" Click="btn_Krs_Click" Width="auto" Height="60" Content="Красноармейский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Krd" Click="btn_Krd_Click" Width="auto" Height="60" Content="Краснодар" Margin="10,5,10,5"/>
+                <Button Name="btn_Krl" Click="btn_Krl_Click" Width="auto" Height="60" Content="Крыловский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Krm" Click="btn_Krm_Click" Width="auto" Height="60" Content="Крымский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Krg" Click="btn_Krg_Click" Width="auto" Height="60" Content="Курганинский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Ksh" Click="btn_Ksh_Click" Width="auto" Height="60" Content="Кущевский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Lab" Click="btn_Lab_Click" Width="auto" Height="60" Content="Лабинский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Lng" Click="btn_Lng_Click" Width="auto" Height="60" Content="Ленинградский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Mst" Click="btn_Mst_Click" Width="auto" Height="60" Content="Мостовский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Nvk" Click="btn_Nvk_Click" Width="auto" Height="60" Content="Новокубанский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Nvp" Click="btn_Nvp_Click" Width="auto" Height="60" Content="Новопокровский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Nvr" Click="btn_Nvr_Click" Width="auto" Height="60" Content="Новороссийск" Margin="10,5,10,5"/>
+                <Button Name="btn_Otr" Click="btn_Otr_Click" Width="auto" Height="60" Content="Отрадненский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Pvl" Click="btn_Pvl_Click" Width="auto" Height="60" Content="Павловский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Prm" Click="btn_Prm_Click" Width="auto" Height="60" Content="Приморско-Ахтарский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Svr" Click="btn_Svr_Click" Width="auto" Height="60" Content="Северский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Sirius" Click="btn_Sirius_Click" Width="auto" Height="60" Content="Сириус" Margin="10,5,10,5"/>
+                <Button Name="btn_Slv" Click="btn_Slv_Click" Width="auto" Height="60" Content="Славянский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Sochi" Click="btn_Sochi_Click" Width="auto" Height="60" Content="Сочи" Margin="10,5,10,5"/>
+                <Button Name="btn_Str" Click="btn_Str_Click" Width="auto" Height="60" Content="Староминской район" Margin="10,5,10,5"/>
+                <Button Name="btn_Tbl" Click="btn_Tbl_Click" Width="auto" Height="60" Content="Тбилисский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Tmr" Click="btn_Tmr_Click" Width="auto" Height="60" Content="Темрюкский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Tps" Click="btn_Tps_Click" Width="auto" Height="60" Content="Туапсинский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Usp" Click="btn_Usp_Click" Width="auto" Height="60" Content="Успенский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Usl" Click="btn_Usl_Click" Width="auto" Height="60" Content="Усть-Лабинский район" Margin="10,5,10,5"/>
+                <Button Name="btn_Shrb" Click="btn_Shrb_Click" Width="auto" Height="60" Content="Щербиновский район" Margin="10,5,10,5"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

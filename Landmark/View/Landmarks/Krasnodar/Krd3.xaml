@@ -1,0 +1,25 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Krasnodar.Krd3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Krasnodar"
+        mc:Ignorable="d"
+        Title="Войсковой собор Святого Благоверного князя Александра Невского" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Krasnodar/alexander-nevsky-cathedral-krasnodar.jpg" MaxWidth="600" Width="509" Margin="5" Height="309" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Александр Невский считается святым покровителем воинства. Поэтому Войсковой Александро-Невский храм, построенный на средства военных, получил название в его честь. Строительные работы завершились к 1872-му. При советской власти собор сначала разграбили, устроив в нем музей атеизма, а потом и вовсе взорвали."/><LineBreak/><Run Text="Восстановили его только в начале XXI в., практически не изменив первоначальный облик. Сооружение построено в византийском стиле и имеет форму креста. Фасад, украшенный розетками, стилизованными под готику, завершают пять позолоченных куполов, покоящихся на мощных барабанах. Главная храмовая святыня – частичка мощей Александра Невского."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Window>

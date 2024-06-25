@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Yeisk.Yeisk2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Yeisk"
+        mc:Ignorable="d"
+        Title="Кафедральный собор Николая Чудотворца" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Yeisk/cathedral-of-st-nicholas-the-wonderworker.jpg" MaxWidth="600" Width="408" Margin="5" Height="301" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Первая церковь была основана на этом месте в конце XIX в. и освящена в честь Святого Пантелеймона. К церкви пристроили также приходскую школу. Храм был возведен в старорусском стиле из дерева и напоминал старинный шатер. В эпоху церковных репрессий церковь при коммунистах закрыли и разграбили, а потом и вовсе снесли. На ее месте был построено красивое здание с ионическими колоннами. В нем основали кинотеатр «Октябрь»."/><LineBreak/><Run Text="Лишь в конце XX в. здание было передано РПЦ. В нем снова открыли храм, на сей раз освятив его в честь Николая Чудотворца. Фасады декорированы лепниной, а над храмовыми росписями трудились выдающиеся художники Кубани. Вскоре рядом была построена трехъярусная колокольня в том же стиле, что и здание. При церкви работает духовно-просветительский центр."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

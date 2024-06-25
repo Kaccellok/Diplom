@@ -1,0 +1,44 @@
+﻿<Window x:Class="Landmark.View.Districts.Info.Kanevskaya"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Districts.Info"
+        mc:Ignorable="d"
+        Title="Каневской район" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontFamily="Times New Roman" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel >
+            <UniformGrid Columns="10">
+                <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack" Click="btn_GoBack_Click"
+/>
+            </UniformGrid>
+            <Image Source="/View/Districts/Info/Kanevskoy.png" Height="200" Width="300"/>
+
+
+            <StackPanel Height="160" Width="350" >
+
+                <Button x:Name="btn_landmarksKan1"  Margin="5" Content="Покровский храм" Width="300" Height="30" Click="btn_landmarksKan1_Click"/>
+                <Button x:Name="btn_landmarksKan2"  Margin="5" Content="Церковь Пантелеимона Целителя" Width="300" Height="30" Click="btn_landmarksKan2_Click"/>
+
+
+            </StackPanel>   
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1" Margin="0,10,0,10">
+            <TextBlock x:Name="tbDescDistrict" TextWrapping="Wrap" FontSize="18"><Run Text="Дата образования: 1924 год"/><LineBreak/><Run Text="Население: 97 243 чел. (2023 г.)"/><LineBreak/><Run Text="Телефонный код: 86164"/><LineBreak/><Run Text="Площадь: 2 485 км²"/><LineBreak/><Run Text="География: в северо-западной части Краснодарского края"/><LineBreak/><Run/><LineBreak/><Run Text="Каневской район Краснодарского края основан в 1924 году на основании постановления Президиума ВЦИК от 2 июня 1924 года и постановления Кубчероблисполкома от 19 июля 1924 года."/><LineBreak/><Run/><LineBreak/><Run Text="Граница района установлена Указом Президиума Верховного Совета РСФСР от 22 августа 1953 года и решением Краснодарского крайисполкома от 27 марта 1964 года."/><LineBreak/><Run/><LineBreak/><Run Text="Каневской район является исторически сложившимся местом проживания кубанского казачества и составной частью административной территории Кубани и Черномории. Заселение района продолжалось более ста лет и соответствовало основным этапам заселения края."/><LineBreak/><Run/><LineBreak/><Run Text="30 декабря 1966 года Брюховецкий и Староминский районы были восстановлены в прежних границах."/><LineBreak/><Run/><LineBreak/><Run Text="В 1993 году была прекращена деятельность сельских Советов, территории сельских администраций преобразованы в сельские округа."/><LineBreak/><Run/><LineBreak/><Run Text="В 2005 году в муниципальном районе были образованы 9 сельских поселений."/></TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Window>

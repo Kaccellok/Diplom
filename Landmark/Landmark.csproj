@@ -1,0 +1,1846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02E675F0-457D-422C-9266-F89CF3B58124}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Landmark</RootNamespace>
+    <AssemblyName>Landmark</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>gerbKubani.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Mvvm, Version=23.2.0.0, Culture=neutral, PublicKeyToken=382ad28f6ae31f30, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpressMvvm.23.2.3\lib\net452\DevExpress.Mvvm.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.UI, Version=23.2.0.0, Culture=neutral, PublicKeyToken=382ad28f6ae31f30, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpressMvvm.23.2.3\lib\net452\DevExpress.Mvvm.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteDB, Version=5.0.19.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiteDB.5.0.19\lib\net45\LiteDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.0-preview.3.24172.9\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.9.0.0-preview.3.24172.9\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.9.0.0-preview.3.24172.9\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PropertyChanged, Version=4.1.0.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
+      <HintPath>..\packages\PropertyChanged.Fody.4.1.0\lib\net40\PropertyChanged.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Dependency.cs" />
+    <Compile Include="Models\Answer.cs" />
+    <Compile Include="Models\Question.cs" />
+    <Compile Include="Models\Test.cs" />
+    <Compile Include="ObservableCollectionExtensions.cs" />
+    <Compile Include="Services\CustomFileService.cs" />
+    <Compile Include="Services\DialogService.cs" />
+    <Compile Include="Services\FileService.cs" />
+    <Compile Include="Services\Interfaces\IDialogService.cs" />
+    <Compile Include="Services\PageNavigationService.cs" />
+    <Compile Include="Services\Repository.cs" />
+    <Compile Include="Services\TestService.cs" />
+    <Compile Include="Services\TestState.cs" />
+    <Compile Include="ViewModelLocator.cs" />
+    <Compile Include="ViewModels\CreateTestPageViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\StartPageViewModel.cs" />
+    <Compile Include="ViewModels\StatisticsPageViewModel.cs" />
+    <Compile Include="ViewModels\TestDialogWindowViewModel.cs" />
+    <Compile Include="ViewModels\TestListPageViewModel.cs" />
+    <Compile Include="ViewModels\TestPageViewModel.cs" />
+    <Compile Include="View\Districts\DistrictsList.xaml.cs">
+      <DependentUpon>DistrictsList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Abinsk.xaml.cs">
+      <DependentUpon>Abinsk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Anapa.xaml.cs">
+      <DependentUpon>Anapa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Apsheronsky.xaml.cs">
+      <DependentUpon>Apsheronsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Armavir.xaml.cs">
+      <DependentUpon>Armavir.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Beloglinsky.xaml.cs">
+      <DependentUpon>Beloglinsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Belorechensky.xaml.cs">
+      <DependentUpon>Belorechensky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Bryukhovetsky.xaml.cs">
+      <DependentUpon>Bryukhovetsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Dinskoy.xaml.cs">
+      <DependentUpon>Dinskoy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Gelendzhik.xaml.cs">
+      <DependentUpon>Gelendzhik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\GoryachiyKlyuch.xaml.cs">
+      <DependentUpon>GoryachiyKlyuch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Gulkevichsky.xaml.cs">
+      <DependentUpon>Gulkevichsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Kalininsky.xaml.cs">
+      <DependentUpon>Kalininsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Yeisk.xaml.cs">
+      <DependentUpon>Yeisk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Kanevskaya.xaml.cs">
+      <DependentUpon>Kanevskaya.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Kavkazsky.xaml.cs">
+      <DependentUpon>Kavkazsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Korenovsky.xaml.cs">
+      <DependentUpon>Korenovsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Krasnoarmeysky.xaml.cs">
+      <DependentUpon>Krasnoarmeysky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Krylovsky.xaml.cs">
+      <DependentUpon>Krylovsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Krymsky.xaml.cs">
+      <DependentUpon>Krymsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Kurganinsky.xaml.cs">
+      <DependentUpon>Kurganinsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Kushchevsky.xaml.cs">
+      <DependentUpon>Kushchevsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Labinsky.xaml.cs">
+      <DependentUpon>Labinsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Leningrad.xaml.cs">
+      <DependentUpon>Leningrad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Mostovsky.xaml.cs">
+      <DependentUpon>Mostovsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Novokubansky.xaml.cs">
+      <DependentUpon>Novokubansky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Novopokrovsky.xaml.cs">
+      <DependentUpon>Novopokrovsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Novorossiysk.xaml.cs">
+      <DependentUpon>Novorossiysk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Otradnensky.xaml.cs">
+      <DependentUpon>Otradnensky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Pavlovsky.xaml.cs">
+      <DependentUpon>Pavlovsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\PrimorskoAkhtarsky.xaml.cs">
+      <DependentUpon>PrimorskoAkhtarsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Seversky.xaml.cs">
+      <DependentUpon>Seversky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Shcherbinovsky.xaml.cs">
+      <DependentUpon>Shcherbinovsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Sirius.xaml.cs">
+      <DependentUpon>Sirius.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Slavyansky.xaml.cs">
+      <DependentUpon>Slavyansky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Sochi.xaml.cs">
+      <DependentUpon>Sochi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Starominskaya.xaml.cs">
+      <DependentUpon>Starominskaya.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Tbilisi.xaml.cs">
+      <DependentUpon>Tbilisi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Temryuksky.xaml.cs">
+      <DependentUpon>Temryuksky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Tuapse.xaml.cs">
+      <DependentUpon>Tuapse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Uspensky.xaml.cs">
+      <DependentUpon>Uspensky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\UstLabinsky.xaml.cs">
+      <DependentUpon>UstLabinsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Vyselkovsky.xaml.cs">
+      <DependentUpon>Vyselkovsky.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Districts\Info\Krasnodar.xaml.cs">
+      <DependentUpon>Krasnodar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Abinsky\LandmarkAbn1.xaml.cs">
+      <DependentUpon>LandmarkAbn1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Abinsky\LandmarkAbn2.xaml.cs">
+      <DependentUpon>LandmarkAbn2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Abinsky\LandmarkAbn3.xaml.cs">
+      <DependentUpon>LandmarkAbn3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Abinsky\LandmarkAbn4.xaml.cs">
+      <DependentUpon>LandmarkAbn4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa10.xaml.cs">
+      <DependentUpon>LandmarkAnapa10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa11.xaml.cs">
+      <DependentUpon>LandmarkAnapa11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa2.xaml.cs">
+      <DependentUpon>LandmarkAnapa2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa3.xaml.cs">
+      <DependentUpon>LandmarkAnapa3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa4.xaml.cs">
+      <DependentUpon>LandmarkAnapa4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa5.xaml.cs">
+      <DependentUpon>LandmarkAnapa5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa6.xaml.cs">
+      <DependentUpon>LandmarkAnapa6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa7.xaml.cs">
+      <DependentUpon>LandmarkAnapa7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa8.xaml.cs">
+      <DependentUpon>LandmarkAnapa8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Anapa\LandmarkAnapa9.xaml.cs">
+      <DependentUpon>LandmarkAnapa9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Apsheronsky\LandmarkApsh1.xaml.cs">
+      <DependentUpon>LandmarkApsh1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Apsheronsky\LandmarkApsh10.xaml.cs">
+      <DependentUpon>LandmarkApsh10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Apsheronsky\LandmarkApsh2.xaml.cs">
+      <DependentUpon>LandmarkApsh2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Apsheronsky\LandmarkApsh3.xaml.cs">
+      <DependentUpon>LandmarkApsh3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm1.xaml.cs">
+      <DependentUpon>LandmarkArm1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm2.xaml.cs">
+      <DependentUpon>LandmarkArm2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm3.xaml.cs">
+      <DependentUpon>LandmarkArm3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm4.xaml.cs">
+      <DependentUpon>LandmarkArm4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm5.xaml.cs">
+      <DependentUpon>LandmarkArm5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm6.xaml.cs">
+      <DependentUpon>LandmarkArm6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm7.xaml.cs">
+      <DependentUpon>LandmarkArm7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Armavir\LandmarkArm8.xaml.cs">
+      <DependentUpon>LandmarkArm8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Belorechensky\LandmarkBel1.xaml.cs">
+      <DependentUpon>LandmarkBel1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Belorechensky\LandmarkBel2.xaml.cs">
+      <DependentUpon>LandmarkBel2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Belorechensky\LandmarkBel3.xaml.cs">
+      <DependentUpon>LandmarkBel3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Belorechensky\LandmarkBel4.xaml.cs">
+      <DependentUpon>LandmarkBel4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Belorechensky\LandmarkBel5.xaml.cs">
+      <DependentUpon>LandmarkBel5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Belorechensky\LandmarkBel6.xaml.cs">
+      <DependentUpon>LandmarkBel6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Bryukhovetsky\LandmarkBrh1.xaml.cs">
+      <DependentUpon>LandmarkBrh1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Dinskoy\LandmarksDin1.xaml.cs">
+      <DependentUpon>LandmarksDin1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Dinskoy\LandmarksDin2.xaml.cs">
+      <DependentUpon>LandmarksDin2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gelendzhik\Gel1.xaml.cs">
+      <DependentUpon>Gel1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gelendzhik\Gel2.xaml.cs">
+      <DependentUpon>Gel2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gelendzhik\Gel3.xaml.cs">
+      <DependentUpon>Gel3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gelendzhik\Gel4.xaml.cs">
+      <DependentUpon>Gel4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gelendzhik\Gel5.xaml.cs">
+      <DependentUpon>Gel5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gelendzhik\Gel6.xaml.cs">
+      <DependentUpon>Gel6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gelendzhik\Gel7.xaml.cs">
+      <DependentUpon>Gel7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Goryachiy Klyuch\GK1.xaml.cs">
+      <DependentUpon>GK1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Goryachiy Klyuch\GK2.xaml.cs">
+      <DependentUpon>GK2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Goryachiy Klyuch\GK3.xaml.cs">
+      <DependentUpon>GK3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Goryachiy Klyuch\GK4.xaml.cs">
+      <DependentUpon>GK4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Goryachiy Klyuch\GK5.xaml.cs">
+      <DependentUpon>GK5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Goryachiy Klyuch\GK6.xaml.cs">
+      <DependentUpon>GK6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gulkevichsky\Gul1.xaml.cs">
+      <DependentUpon>Gul1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Gulkevichsky\Gul2.xaml.cs">
+      <DependentUpon>Gul2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kanevskaya\Kan1.xaml.cs">
+      <DependentUpon>Kan1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kanevskaya\Kan2.xaml.cs">
+      <DependentUpon>Kan2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kavkazsky\Kav1.xaml.cs">
+      <DependentUpon>Kav1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kavkazsky\Kav2.xaml.cs">
+      <DependentUpon>Kav2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kavkazsky\Kav3.xaml.cs">
+      <DependentUpon>Kav3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kavkazsky\Kav4.xaml.cs">
+      <DependentUpon>Kav4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kavkazsky\Kav5.xaml.cs">
+      <DependentUpon>Kav5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Korenovsky\Kor1.xaml.cs">
+      <DependentUpon>Kor1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krasnodar\Krd1.xaml.cs">
+      <DependentUpon>Krd1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krasnodar\Krd2.xaml.cs">
+      <DependentUpon>Krd2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krasnodar\Krd3.xaml.cs">
+      <DependentUpon>Krd3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krasnodar\Krd4.xaml.cs">
+      <DependentUpon>Krd4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krasnodar\Krd5.xaml.cs">
+      <DependentUpon>Krd5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krasnodar\Krd6.xaml.cs">
+      <DependentUpon>Krd6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krasnodar\Krd7.xaml.cs">
+      <DependentUpon>Krd7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krymsky\Krym1.xaml.cs">
+      <DependentUpon>Krym1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Krymsky\Krym2.xaml.cs">
+      <DependentUpon>Krym2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kurganinsky\Kur1.xaml.cs">
+      <DependentUpon>Kur1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Kurganinsky\Kur2.xaml.cs">
+      <DependentUpon>Kur2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Labinsky\Lab1.xaml.cs">
+      <DependentUpon>Lab1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Labinsky\Lab2.xaml.cs">
+      <DependentUpon>Lab2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Labinsky\Lab3.xaml.cs">
+      <DependentUpon>Lab3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Labinsky\Lab4.xaml.cs">
+      <DependentUpon>Lab4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR1.xaml.cs">
+      <DependentUpon>NVR1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR2.xaml.cs">
+      <DependentUpon>NVR2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR3.xaml.cs">
+      <DependentUpon>NVR3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR4.xaml.cs">
+      <DependentUpon>NVR4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR5.xaml.cs">
+      <DependentUpon>NVR5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR6.xaml.cs">
+      <DependentUpon>NVR6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR7.xaml.cs">
+      <DependentUpon>NVR7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Novorossiysk\NVR8.xaml.cs">
+      <DependentUpon>NVR8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Primorsko-Akhtarsky\PA1.xaml.cs">
+      <DependentUpon>PA1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Primorsko-Akhtarsky\PA2.xaml.cs">
+      <DependentUpon>PA2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Seversky\Sev1.xaml.cs">
+      <DependentUpon>Sev1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Seversky\Sev2.xaml.cs">
+      <DependentUpon>Sev2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Slavyansky\Slv1.xaml.cs">
+      <DependentUpon>Slv1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Slavyansky\Slv2.xaml.cs">
+      <DependentUpon>Slv2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Slavyansky\Slv3.xaml.cs">
+      <DependentUpon>Slv3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Sochi\Sochi1.xaml.cs">
+      <DependentUpon>Sochi1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Sochi\Sochi2.xaml.cs">
+      <DependentUpon>Sochi2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Sochi\Sochi3.xaml.cs">
+      <DependentUpon>Sochi3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Sochi\Sochi4.xaml.cs">
+      <DependentUpon>Sochi4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Sochi\Sochi5.xaml.cs">
+      <DependentUpon>Sochi5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Temryuksky\TM1.xaml.cs">
+      <DependentUpon>TM1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Temryuksky\TM2.xaml.cs">
+      <DependentUpon>TM2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Tuapse\Tuapse1.xaml.cs">
+      <DependentUpon>Tuapse1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Tuapse\Tuapse2.xaml.cs">
+      <DependentUpon>Tuapse2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Tuapse\Tuapse3.xaml.cs">
+      <DependentUpon>Tuapse3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Ust-Labinsky\UL1.xaml.cs">
+      <DependentUpon>UL1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Ust-Labinsky\UL2.xaml.cs">
+      <DependentUpon>UL2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Ust-Labinsky\UL3.xaml.cs">
+      <DependentUpon>UL3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Yeisk\Yeisk1.xaml.cs">
+      <DependentUpon>Yeisk1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Yeisk\Yeisk2.xaml.cs">
+      <DependentUpon>Yeisk2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Yeisk\Yeisk3.xaml.cs">
+      <DependentUpon>Yeisk3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Yeisk\Yeisk4.xaml.cs">
+      <DependentUpon>Yeisk4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Landmarks\Yeisk\Yeisk5.xaml.cs">
+      <DependentUpon>Yeisk5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TestDialogWindow.xaml.cs">
+      <DependentUpon>TestDialogWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tests\MainWindowTest.xaml.cs">
+      <DependentUpon>MainWindowTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tests\Pages\CreateTestPage.xaml.cs">
+      <DependentUpon>CreateTestPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tests\Pages\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tests\Pages\StatisticsPage.xaml.cs">
+      <DependentUpon>StatisticsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tests\Pages\TestListPage.xaml.cs">
+      <DependentUpon>TestListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tests\Pages\TestPage.xaml.cs">
+      <DependentUpon>TestPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\Districts\DistrictsList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Districts\Info\Abinsk.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Districts\Info\Anapa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Apsheronsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Armavir.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Beloglinsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Belorechensky.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Districts\Info\Bryukhovetsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Dinskoy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Gelendzhik.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\GoryachiyKlyuch.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Gulkevichsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Kalininsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Yeisk.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Kanevskaya.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Kavkazsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Korenovsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Krasnoarmeysky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Krylovsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Krymsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Kurganinsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Kushchevsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Labinsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Leningrad.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Mostovsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Novokubansky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Novopokrovsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Novorossiysk.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Otradnensky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Pavlovsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\PrimorskoAkhtarsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Seversky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Shcherbinovsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Sirius.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Slavyansky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Sochi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Starominskaya.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Tbilisi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Temryuksky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Tuapse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Uspensky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\UstLabinsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Vyselkovsky.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Districts\Info\Krasnodar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Abinsky\LandmarkAbn1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Abinsky\LandmarkAbn2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Abinsky\LandmarkAbn3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Abinsky\LandmarkAbn4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Anapa\LandmarkAnapa9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Apsheronsky\LandmarkApsh1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Apsheronsky\LandmarkApsh10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Apsheronsky\LandmarkApsh2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Apsheronsky\LandmarkApsh3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Armavir\LandmarkArm8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Belorechensky\LandmarkBel1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Belorechensky\LandmarkBel2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Belorechensky\LandmarkBel3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Belorechensky\LandmarkBel4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Belorechensky\LandmarkBel5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Belorechensky\LandmarkBel6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Bryukhovetsky\LandmarkBrh1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Dinskoy\LandmarksDin1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Dinskoy\LandmarksDin2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gelendzhik\Gel1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gelendzhik\Gel2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gelendzhik\Gel3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gelendzhik\Gel4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gelendzhik\Gel5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gelendzhik\Gel6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gelendzhik\Gel7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Goryachiy Klyuch\GK1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Goryachiy Klyuch\GK2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Goryachiy Klyuch\GK3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Goryachiy Klyuch\GK4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Goryachiy Klyuch\GK5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Goryachiy Klyuch\GK6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gulkevichsky\Gul1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Gulkevichsky\Gul2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kanevskaya\Kan1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kanevskaya\Kan2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kavkazsky\Kav1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kavkazsky\Kav2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kavkazsky\Kav3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kavkazsky\Kav4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kavkazsky\Kav5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Korenovsky\Kor1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krasnodar\Krd1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krasnodar\Krd2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krasnodar\Krd3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krasnodar\Krd4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krasnodar\Krd5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krasnodar\Krd6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krasnodar\Krd7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krymsky\Krym1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Krymsky\Krym2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kurganinsky\Kur1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Kurganinsky\Kur2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Labinsky\Lab1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Labinsky\Lab2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Labinsky\Lab3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Labinsky\Lab4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Novorossiysk\NVR8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Primorsko-Akhtarsky\PA1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Primorsko-Akhtarsky\PA2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Seversky\Sev1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Seversky\Sev2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Slavyansky\Slv1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Slavyansky\Slv2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Slavyansky\Slv3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Sochi\Sochi1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Sochi\Sochi2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Sochi\Sochi3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Sochi\Sochi4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Sochi\Sochi5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Temryuksky\TM1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Temryuksky\TM2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Tuapse\Tuapse1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Tuapse\Tuapse2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Tuapse\Tuapse3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Ust-Labinsky\UL1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Ust-Labinsky\UL2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Ust-Labinsky\UL3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Yeisk\Yeisk1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Yeisk\Yeisk2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Yeisk\Yeisk3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Yeisk\Yeisk4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Landmarks\Yeisk\Yeisk5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TestDialogWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Tests\MainWindowTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Tests\Pages\CreateTestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Tests\Pages\StartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Tests\Pages\StatisticsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Tests\Pages\TestListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Tests\Pages\TestPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\Landmarks\Beloglinsky\" />
+    <Folder Include="View\Landmarks\Kalininsky\" />
+    <Folder Include="View\Landmarks\Krasnoarmeysky\" />
+    <Folder Include="View\Landmarks\Krylovsky\" />
+    <Folder Include="View\Landmarks\Kushchevsky\" />
+    <Folder Include="View\Landmarks\Leningrad\" />
+    <Folder Include="View\Landmarks\Mostovsky\" />
+    <Folder Include="View\Landmarks\Novokubansky\" />
+    <Folder Include="View\Landmarks\Novopokrovsky\" />
+    <Folder Include="View\Landmarks\Otradnensky\" />
+    <Folder Include="View\Landmarks\Pavlovsky\" />
+    <Folder Include="View\Landmarks\Shcherbinovsky\" />
+    <Folder Include="View\Landmarks\Sirius\" />
+    <Folder Include="View\Landmarks\Starominskaya\" />
+    <Folder Include="View\Landmarks\Tbilisi\" />
+    <Folder Include="View\Landmarks\Uspensky\" />
+    <Folder Include="View\Landmarks\Vyselkovsky\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Image\Flags\Abinsk.png" />
+    <Resource Include="Resources\Image\Flags\Anapa.png" />
+    <Resource Include="Resources\Image\Flags\Apsheronsky.png" />
+    <Resource Include="Resources\Image\Flags\Armavir.png" />
+    <Resource Include="Resources\Image\Flags\Beloglinsky.png" />
+    <Resource Include="Resources\Image\Flags\Belorechensky.png" />
+    <Resource Include="Resources\Image\Flags\Bryukhovetsky.png" />
+    <Resource Include="Resources\Image\Flags\Dinskoy.png" />
+    <Resource Include="Resources\Image\Flags\flagKubani.png" />
+    <Resource Include="Resources\Image\Flags\Gelendzhik.png" />
+    <Resource Include="Resources\Image\Flags\Goryachy_Klyuch.png" />
+    <Resource Include="Resources\Image\Flags\Gulkevichi.png" />
+    <Resource Include="Resources\Image\Flags\Kalininsky.png" />
+    <Resource Include="Resources\Image\Flags\Kanevskoy.png" />
+    <Resource Include="Resources\Image\Flags\Kavkazsky.png" />
+    <Resource Include="Resources\Image\Flags\Korenovsk.png" />
+    <Resource Include="Resources\Image\Flags\Krasnoarmeisky.png" />
+    <Resource Include="Resources\Image\Flags\Krasnodar.png" />
+    <Resource Include="Resources\Image\Flags\KrasnodarKrai.png" />
+    <Resource Include="Resources\Image\Flags\Krylovsky.png" />
+    <Resource Include="Resources\Image\Flags\Krymsky.png" />
+    <Resource Include="Resources\Image\Flags\Kurganinsk.png" />
+    <Resource Include="Resources\Image\Flags\Kushchevsky.png" />
+    <Resource Include="Resources\Image\Flags\Labinsky.png" />
+    <Resource Include="Resources\Image\Flags\Leningradsky.png" />
+    <Resource Include="Resources\Image\Flags\Mostovskoi.png" />
+    <Resource Include="Resources\Image\Flags\Novokubansk.png" />
+    <Resource Include="Resources\Image\Flags\Novopokrovsky.png" />
+    <Resource Include="Resources\Image\Flags\Novorossiysk.png" />
+    <Resource Include="Resources\Image\Flags\Otradnensky.png" />
+    <Resource Include="Resources\Image\Flags\Pavlovsky.png" />
+    <Resource Include="Resources\Image\Flags\Primorsko-Akhtarsk.png" />
+    <Resource Include="Resources\Image\Flags\Seversky.png" />
+    <Resource Include="Resources\Image\Flags\Shcherbinovsky.png" />
+    <Resource Include="Resources\Image\Flags\Slavyansky.png" />
+    <Resource Include="Resources\Image\Flags\Sochi.png" />
+    <Resource Include="Resources\Image\Flags\Starominsky.png" />
+    <Resource Include="Resources\Image\Flags\Tbilissky.png" />
+    <Resource Include="Resources\Image\Flags\Temryuk.png" />
+    <Resource Include="Resources\Image\Flags\Tikhoretsk.png" />
+    <Resource Include="Resources\Image\Flags\Timashevsk.png" />
+    <Resource Include="Resources\Image\Flags\Tuapse.png" />
+    <Resource Include="Resources\Image\Flags\Uspensky.png" />
+    <Resource Include="Resources\Image\Flags\Ust-Labinsky.png" />
+    <Resource Include="Resources\Image\Flags\Vyselkovsky.png" />
+    <Resource Include="Resources\Image\Flags\Yeysky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FodyWeavers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Image\gerbKubani.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gerbKubani.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Abinsk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\hram1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Anapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\hram2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\hram3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\apostol1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\apostol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\pamyatnik1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Abinsky\pamyatnik2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\mayak1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\mayak2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\armchurch1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\armchurch2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\gorgippia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\gorgipii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\museum2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\museum1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\pushkin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\pushkin1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\pamyatnik1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\pamyatnik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\vorota2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\vorota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\hram2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\hram3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\hram1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\chasovnya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Anapa\chasovnya1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Apsheronsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Armavir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Beloglinsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Bryukhovetsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Dinskoy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Gelendzhik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Goryachy_Klyuch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Gulkevichi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Kalininsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Kanevskoy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Kavkazsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Korenovsk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Krasnoarmeisky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Krasnodar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Krylovsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Krymsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Kurganinsk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Kushchevsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Labinsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Leningradsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Mostovskoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Novokubansk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Novopokrovsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Novorossiysk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Otradnensky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Pavlovsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Primorsko-Akhtarsk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Seversky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Shcherbinovsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Sirius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Slavyansky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Sochi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Starominsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Tbilissky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Temryuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Tuapse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Uspensky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Ust-Labinsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Vyselkovsky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Yeysky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Districts\Info\Belorechensky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\guamka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\guamka1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\LagoNaki1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\LagoNaki2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\azish1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\azish2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\forshtad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\sunits.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\museum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\museum1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\gorbatko.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\church.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\museum.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\troitskiysobor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Armavir\nikol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Belorechensky\hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Belorechensky\obelisk.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Belorechensky\alleyapisateley.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Belorechensky\zaezzhiy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Belorechensky\torgovyy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Belorechensky\hram1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Apsheronsky\doroga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Bryukhovetsky\pustyn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Dinskoy\caption %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Dinskoy\caption.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Dinskoy\caption %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gelendzhik\dolmens.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gelendzhik\rock-sail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gelendzhik\old-park-kabardinka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gelendzhik\dzhanhotsky-pine-forest-of-pitsunda-pine.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gelendzhik\juniper-grove-kabardinka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gelendzhik\holy-transfiguration-church.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gelendzhik\gate-lighthouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Goryachiy Klyuch\healing-park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Goryachiy Klyuch\fanagoria-stalactite-cave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Goryachiy Klyuch\rooster-rock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Goryachiy Klyuch\mineral-glade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Goryachiy Klyuch\psyfabe-fortress.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Goryachiy Klyuch\chapel-of-the-iberian-icon-of-the-mother-of-god.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gulkevichsky\pamyatnik-m.i.-korotkovu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Gulkevichsky\hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kanevskaya\pokrovskiy-hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kanevskaya\tserkov-panteleimona-tselitelya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Yeisk\poddubny-park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Yeisk\cathedral-of-st-nicholas-the-wonderworker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Yeisk\gorky-park.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Yeisk\yeisk-sea-port.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Yeisk\museum-of-history-and-local-lore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Ust-Labinsky\aleksandrovskaya-suvorovskaya-krepost.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Ust-Labinsky\kraevedcheskiy-muzey-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Ust-Labinsky\hram-rozhdestva-presvyatoy-bogoroditsy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Tuapse\plane-alley.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Tuapse\hill-of-heroes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Tuapse\kiselev-house-museum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Temryuksky\temple-of-michael-the-archangel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Temryuksky\temryuk-historical-and-archaeological-museum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Sochi\park-southern-cultures.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Sochi\observation-tower-on-mount-akhun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Sochi\winter-theater.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Sochi\house-museum-of-stalins-cottage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Sochi\marine-station.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Slavyansky\svyato-uspenskij-sobor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Slavyansky\pamyatnik-uchastnikam-pohoda-tamanskoj-krasnoj-armii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Slavyansky\gorodskoj-istoriko-kraevedcheskij-muzej.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Seversky\stoy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Seversky\Дольмен-Убинская-1024x768.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Primorsko-Akhtarsky\bunker-shtaba-azovskoy-voennoy-flotilii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Primorsko-Akhtarsky\primorsko-ahtarskiy-mayak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\mal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\bat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\gos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\lut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\oct.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\nep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\church.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Novorossiysk\razv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Labinsky\church.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Labinsky\dom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Labinsky\kaz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Labinsky\memjpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kurganinsky\church.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kurganinsky\mus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Korenovsky\svyato-uspenskiy-monastyr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krasnodar\city-garden-of-krasnodar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krasnodar\monument-to-catherine-ii-krasnodar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krasnodar\alexander-nevsky-cathedral-krasnodar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krasnodar\street-krasnodar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krasnodar\st-catherines-cathedral-krasnodar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krasnodar\holy-trinity-cathedral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krasnodar\chistyakovskaya-grove-krasnodar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krymsky\tserkov-kazanskoy-ikony-bozhey-materi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Krymsky\pamyatnik-utrachennomu-hramu-arhangela-mihaila.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kavkazsky\svyato-georgievskiy-hram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kavkazsky\zdanie-zheleznodorozhnogo-vokzala.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kavkazsky\zdanie-gosbanka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kavkazsky\pamyatnik-p.a.-kropotkinu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\Landmarks\Kavkazsky\sobor-pokrova-presvyatoy-bogoroditsy.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.4.1.0\build\PropertyChanged.Fody.props'))" />
+    <Error Condition="!Exists('..\packages\Fody.6.8.1\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.8.1\build\Fody.targets'))" />
+  </Target>
+  <Import Project="..\packages\Fody.6.8.1\build\Fody.targets" Condition="Exists('..\packages\Fody.6.8.1\build\Fody.targets')" />
+</Project>

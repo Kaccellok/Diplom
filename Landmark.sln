@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Landmark", "Landmark\Landmark.csproj", "{02E675F0-457D-422C-9266-F89CF3B58124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E675F0-457D-422C-9266-F89CF3B58124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E675F0-457D-422C-9266-F89CF3B58124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E675F0-457D-422C-9266-F89CF3B58124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E675F0-457D-422C-9266-F89CF3B58124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C5D2620-21BF-451B-A86C-2DBF21E63E07}
+	EndGlobalSection
+EndGlobal

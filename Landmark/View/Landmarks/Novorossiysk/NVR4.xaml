@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Novorossiysk.NVR4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Novorossiysk"
+        mc:Ignorable="d"
+        Title="Кирха немецких лютеран" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Novorossiysk/lut.jpg" MaxWidth="600" Width="475" Margin="5" Height="313" />
+                <TextBlock TextWrapping="WrapWithOverflow" Text="Кирха (церковь) немецких лютеран - единственный подобный объект в Краснодарском крае. Кирха была построена в конце 19 - нач. 20 века известным немецким архитектором фон Десеном, открытие состоялось в 1908 году. Богослужения проводились до 1929 года, когда советские власти закрыли кирху и передали здание заводу &quot;Пролетарий&quot; под клуб рабочих-цементников. Церковь вернули лютеранам Новороссийска в 1997 году, она была отреставрирована силами прихожан. В наши дни здесь регулярно проводятся богослужения, благотворительные акции, концерты органной музыки. Кирха является памятником архитектуры и находится под охраной государства."/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

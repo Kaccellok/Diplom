@@ -1,0 +1,42 @@
+﻿<Window x:Class="Landmark.View.Districts.Info.Mostovsky"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Districts.Info"
+        mc:Ignorable="d"
+        Title="Мостовский район" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontFamily="Times New Roman" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel >
+            <UniformGrid Columns="10">
+                <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack" Click="btn_GoBack_Click"
+/>
+            </UniformGrid>
+            <Image Source="/View/Districts/Info/Mostovskoi.png" Height="200" Width="300"/>
+
+            
+                <StackPanel Height="160" Width="350" >
+
+
+                </StackPanel>
+            
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1" Margin="0,10,0,10">
+            <TextBlock x:Name="tbDescDistrict" TextWrapping="Wrap" FontSize="18"><Run Text="Дата образования: 1924 год"/><LineBreak/><Run Text="Население: 68 671 чел. (2023 г.)"/><LineBreak/><Run Text="Телефонный код: 86192"/><LineBreak/><Run Text="Площадь: 3 699 км²"/><LineBreak/><Run/><LineBreak/><Run Text="Мостовский район Краснодарского края был образован 2 июня 1924 года."/><LineBreak/><Run Text="Однако уже в 1928 году район был упразднён, и вся территория района вошла в состав Лабинского района."/><LineBreak/><Run/><LineBreak/><Run Text="31 декабря 1934 года район был снова выделен в отдельный регион."/><LineBreak/><Run/><LineBreak/><Run Text="Осенью 1943 года в состав Мостовского района была включена часть земель Ставрополья."/><LineBreak/><Run/><LineBreak/><Run Text="7 декабря 1944 года район был разукрупнён, из него был выделен Псебайский район."/><LineBreak/><Run/><LineBreak/><Run Text="22 августа 1953 года Мостовский район был упразднён, территория района была поделена между Псебайским и Ярославским районами."/><LineBreak/><Run/><LineBreak/><Run Text="21 февраля 1975 года Мостовский район снова был выделен и вошёл в состав Краснодарского края согласно Указу Президиума Верховного Совета РСФСР"/><Run Text="."/><LineBreak/><Run/><LineBreak/><Run Text="В 1993 году была прекращена деятельность сельских Советов, территории сельских администраций преобразованы в сельские округа."/><LineBreak/><Run/><LineBreak/><Run Text="В 2005 году в муниципальном районе были образованы 2 городских и 12 сельских поселений."/></TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Window>

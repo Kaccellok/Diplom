@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Yeisk.Yeisk3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Yeisk"
+        mc:Ignorable="d"
+        Title="Парк им. М. Горького" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Yeisk/gorky-park.jpg" MaxWidth="600" Width="403" Margin="5" Height="281" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Парк был создан в 1925-м и получил, как и многие в те времена, название в честь писателя Максима Горького. Основан он на месте бывшей Михайловской площади – места, где зародился Ейск, по мнению историков. В 2007-м прошла реконструкция, сделавшая зеленую зону еще более популярной."/><LineBreak/><Run Text="Вход в парк обрамляет белая гипсовая арка – популярное место для фото. Далее посетители попадают в царство густой растительности и уютных аллей. В парке оборудованы вольеры для птиц, искусственный водоем, антикварный рынок. Территорию украшают скульптуры и монументы – от античных статуй до памятников Ленину, Сталину и Горькому. Есть игровые площадки, велодорожки, детское кафе, бильярдная. Проходят в парке дискотеки и праздники."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

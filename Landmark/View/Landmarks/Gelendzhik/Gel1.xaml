@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Gelendzhik.Gel1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Gelendzhik"
+        mc:Ignorable="d"
+        Title="Дольмены" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Gelendzhik/dolmens.jpg" MaxWidth="600" Width="420" Margin="5" Height="299" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Одними из самых загадочных рукотворных сооружений древности и уникальным наследием наших предков являются дольмены. В Геленджикском районе сохранилось около 120 таких каменных строений. Многие из них расположены возле села Возрождение, и эти места можно посетить с экскурсией."/><LineBreak/><Run Text="Ученые относят время создания геленджикских дольменов к бронзовому веку и оценивают их возраст примерно в 5 тысяч лет. Происхождение и точное назначение этих конструкций, сложенных из каменных глыб, установить пока не удалось."/><LineBreak/><Run Text="Существует немало версий их возникновения, включая инопланетную. Некоторые из исследователей говорят о мощной энергетике подобных мест. И, как все таинственное и необъяснимое, дольмены привлекают внимание археологов, эзотериков и туристов, интересующихся древней историей."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

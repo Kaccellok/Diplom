@@ -1,0 +1,50 @@
+﻿<Window x:Class="Landmark.View.Districts.Info.Gelendzhik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Districts.Info"
+        mc:Ignorable="d"
+        Title="Геленджик" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontFamily="Times New Roman" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel >
+            <UniformGrid Columns="10">
+                <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack" Click="btn_GoBack_Click"
+/>
+            </UniformGrid>
+            <Image Source="/View/Districts/Info/Gelendzhik.png" Height="200" Width="300"/>
+
+            <ScrollViewer Margin="10" Width="350" CanContentScroll="True">
+                <StackPanel Height="160" Width="350" >
+
+                    <Button x:Name="btn_landmarksGel1"  Margin="5" Content="Дольмены" Width="300" Height="30" Click="btn_landmarksGel1_Click"/>
+                    <Button x:Name="btn_landmarksGel2"  Margin="5" Content="Скала Парус" Width="300" Height="30" Click="btn_landmarksGel2_Click"/>
+                    <Button x:Name="btn_landmarksGel3"  Margin="5" Content="Старый парк в Кабардинке" Width="300" Height="30" Click="btn_landmarksGel3_Click"/>
+                    <Button x:Name="btn_landmarksGel4"  Margin="5" Content="Джанхотский бор пицундской сосны" Width="300" Height="30" Click="btn_landmarksGel4_Click"/>
+                    <Button x:Name="btn_landmarksGel5"  Margin="5" Content="Можжевеловая роща Кабардинки" Width="300" Height="30" Click="btn_landmarksGel5_Click"/>
+                    <Button x:Name="btn_landmarksGel6"  Margin="5" Content="Свято-Преображенская церковь" Width="300" Height="30" Click="btn_landmarksGel6_Click"/>
+                    <Button x:Name="btn_landmarksGel7"  Margin="5" Content="Створный маяк Геленджика" Width="300" Height="30" Click="btn_landmarksGel7_Click"/>
+
+
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1" Margin="0,10,0,10">
+            <TextBlock x:Name="tbDescDistrict" TextWrapping="Wrap" FontSize="18"><Run Text="Дата основания: 1831 год"/><LineBreak/><Run Text="Население: 80 296 чел. (2023 г.)"/><LineBreak/><Run Text="Телефонный код: +7 86141"/><LineBreak/><Run Text="Площадь: 27,9 км²"/><LineBreak/><Run Text="Географическое положение: в Краснодарском крае России"/><LineBreak/><Run/><LineBreak/><Run Text="Геленджик — курортный город на берегу Чёрного моря в Краснодарском крае России."/><LineBreak/><Run Text="Первые поселения на берегу Геленджикской бухты возникли более 4 тысяч лет назад, включая древнюю греческую колонию Торик и обитавшие здесь племена натухаевцев и шапсугов до Кавказской войны."/><LineBreak/><Run Text="В 1831 году российские войска основали крепость Геленджик, которая была восстановлена к 1857 году. В 1864 году город получил статус станции Геленджик."/><LineBreak/><Run Text="Город получил статус курорта в 1915 году, хотя начало его истории не отличалось от села."/><LineBreak/><Run Text="В начале XX века началось активное развитие курортного дела, с исследованием климата и созданием лечебных учреждений."/><LineBreak/><Run Text="Во время Второй Мировой войны бухта стала важной базой для Черноморского флота."/><LineBreak/><Run Text="После войны курорт быстро восстанавливался, приобретая статус курорта всесоюзного значения к 1970 году."/><LineBreak/><Run Text="23 марта 2001 года городу присвоено статус курорта федерального значения."/><LineBreak/><Run Text="20 апреля 2023 года городу было присвоено почётное звание Краснодарского края «Город воинской доблести»."/></TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Window>

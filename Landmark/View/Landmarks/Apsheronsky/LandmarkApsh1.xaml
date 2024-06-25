@@ -1,0 +1,27 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Apsheronsky.LandmarkApsh1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Apsheronsky"
+        mc:Ignorable="d"
+        Title="Гуамское ущелье" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Apsheronsky/guamka.jpg" MaxWidth="600" Width="300" Margin="5" />
+                <TextBlock TextWrapping="WrapWithOverflow" Text="Гуамское ущелье (адыг. Гъуамэ) — узкое глубокое ущелье, в верховьях реки Курджипс. Ущелье расположено между хребтами Гуама и Лаго-Наки, резко обрываясь четырёхсотметровыми скалами к долине реки Курджипс. Находится на территории Апшеронского района Краснодарского края.Название топонима восходит к адыгскому Гъуамэ: &quot;гъуа&quot; - засушенный, высохший; &quot;мэ&quot; - запах, Гъуамэ - захтлый или зашушенный запах. Согласно другой версии, название происходит от адыгского Гъомэ — «запах омелы», где гъо — «омела» и мэ — «запах»."/>
+                <Image Source="/View/Landmarks/Apsheronsky/guamka1.jpg" MaxWidth="600" Width="300" Margin="5"/>
+                <TextBlock TextWrapping="WrapWithOverflow" Text="Длина ущелья составляет чуть более 5 км, а глубина около 400 м, местами оно сужается до 2 м в ширину."/>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

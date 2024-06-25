@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Gelendzhik.Gel5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Gelendzhik"
+        mc:Ignorable="d"
+        Title="Можжевеловая роща Кабардинки" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Gelendzhik/juniper-grove-kabardinka.jpg" MaxWidth="600" Width="560" Margin="5" Height="283" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Необычный памятник природы, представляющий собой можжевеловое редколесье, раскинулся на площади почти 1000 гектаров. Основная масса насаждений находится на территории новороссийского Шесхарисского лесничества, а меньшая часть – в геленджикском Кабардинском лесничестве."/><LineBreak/><Run Text="Вечнозеленый можжевельник известен своей способностью очищать воздух и вырабатывать фитонциды в рекордных количествах. Сюда едут подышать целебным воздухом, укрепить иммунитет и увидеть редкие растения эндемичных видов, занесенные в Красную книгу. Особенно живописна можжевеловая роща весной, когда зацветают тюльпаны, колокольчики и ковыль."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

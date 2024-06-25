@@ -1,0 +1,766 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\diplom test\\Landmark\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\korenovsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\korenovsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\krasnoarmeysky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\krasnoarmeysky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\krasnodar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\krasnodar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\krylovsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\krylovsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\krymsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\krymsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\kavkazsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\kavkazsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\kavkazsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\kavkazsky.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kavkazsky\\kav1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kavkazsky\\kav1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\krymsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\krymsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krymsky\\krym2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krymsky\\krym2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krymsky\\krym1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krymsky\\krym1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krymsky\\krym2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krymsky\\krym2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krymsky\\krym1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krymsky\\krym1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\krasnodar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\krasnodar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd7.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd7.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd6.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd5.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd7.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd7.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd6.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd6.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd5.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\krasnodar\\krd1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\krasnodar\\krd1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\kanevskaya.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\kanevskaya.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\korenovsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\korenovsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\korenovsky\\kor1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\korenovsky\\kor1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\districts\\info\\kurganinsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\districts\\info\\kurganinsky.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kurganinsky\\kur2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kurganinsky\\kur2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kurganinsky\\kur1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kurganinsky\\kur1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kurganinsky\\kur2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kurganinsky\\kur2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|d:\\diplom test\\landmark\\landmark\\view\\landmarks\\kurganinsky\\kur1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E675F0-457D-422C-9266-F89CF3B58124}|Landmark\\Landmark.csproj|solutionrelative:landmark\\view\\landmarks\\kurganinsky\\kur1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Kavkazsky.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kavkazsky.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Kavkazsky.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kavkazsky.xaml",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Kavkazsky.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:47:50.373Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Krasnodar.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krasnodar.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Krasnodar.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krasnodar.xaml",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Krasnodar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:34:26.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Krymsky.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krymsky.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Krymsky.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krymsky.xaml",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Krymsky.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:34:23.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "View\\Districts\\Info\\Kavkazsky.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kavkazsky.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Kavkazsky.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kavkazsky.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Kavkazsky.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwEIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:47:56.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Krylovsky.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krylovsky.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Krylovsky.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krylovsky.xaml",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Krylovsky.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:46:56.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Krasnoarmeysky.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krasnoarmeysky.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Krasnoarmeysky.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krasnoarmeysky.xaml",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Krasnoarmeysky.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:53:21.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Korenovsky.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Korenovsky.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Korenovsky.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Korenovsky.xaml",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Korenovsky.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:53:23.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Kav5.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:00:20.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Kav3.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:00:09.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Kav2.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:00:02.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Kav4.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:00:14.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Kav1.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:57.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "View\\Landmarks\\Kavkazsky\\Kav5.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav5.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:27:15.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "View\\Landmarks\\Kavkazsky\\Kav4.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav4.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:27:11.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "View\\Landmarks\\Kavkazsky\\Kav3.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav3.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:27:01.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "View\\Landmarks\\Kavkazsky\\Kav2.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav2.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:26:58.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "View\\Landmarks\\Kavkazsky\\Kav1.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kavkazsky\\Kav1.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:26:28.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "View\\Districts\\Info\\Krymsky.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krymsky.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Krymsky.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krymsky.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Krymsky.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:46:50.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Krym2.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:17:42.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Krym1.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T01:17:36.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "View\\Landmarks\\Krymsky\\Krym2.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krymsky\\Krym2.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:22:32.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "View\\Landmarks\\Krymsky\\Krym1.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krymsky\\Krym1.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:21:58.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "View\\Districts\\Info\\Krasnodar.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krasnodar.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Krasnodar.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Krasnodar.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Krasnodar.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAmwFAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:47:07.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Krd7.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:44.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Krd4.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:25.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Krd3.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:19.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Krd2.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:13.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Krd1.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:07.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Krd5.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:31.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Krd6.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:59:38.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "View\\Landmarks\\Krasnodar\\Krd7.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd7.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:10:09.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "View\\Landmarks\\Krasnodar\\Krd6.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd6.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:10:06.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "View\\Landmarks\\Krasnodar\\Krd5.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd5.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:10:02.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "View\\Landmarks\\Krasnodar\\Krd4.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd4.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:09:58.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "View\\Landmarks\\Krasnodar\\Krd3.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd3.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:09:55.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "View\\Landmarks\\Krasnodar\\Krd2.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd2.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:09:51.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "View\\Landmarks\\Krasnodar\\Krd1.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Krasnodar\\Krd1.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T01:09:22.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Kanevskaya.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kanevskaya.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Kanevskaya.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kanevskaya.xaml",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Kanevskaya.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:58:27.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "View\\Districts\\Info\\Korenovsky.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Korenovsky.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Korenovsky.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Korenovsky.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Korenovsky.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:56:06.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Kor1.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Korenovsky\\Kor1.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Korenovsky\\Kor1.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Korenovsky\\Kor1.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Korenovsky\\Kor1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:56:19.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Kur1.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:48:47.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "View\\Landmarks\\Kurganinsky\\Kur2.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:51:48.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "View\\Districts\\Info\\Kurganinsky.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kurganinsky.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Districts\\Info\\Kurganinsky.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Districts\\Info\\Kurganinsky.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Districts\\Info\\Kurganinsky.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:46:42.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "View\\Landmarks\\Kurganinsky\\Kur1.xaml.cs",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml.cs",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml.cs",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml.cs",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur1.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T00:51:17.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Kur2.xaml",
+              "DocumentMoniker": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml",
+              "RelativeDocumentMoniker": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml",
+              "ToolTip": "D:\\diplom test\\Landmark\\Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml",
+              "RelativeToolTip": "Landmark\\View\\Landmarks\\Kurganinsky\\Kur2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T00:48:53.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:341129658:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

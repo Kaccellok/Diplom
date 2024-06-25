@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Tuapse.Tuapse3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Tuapse"
+        mc:Ignorable="d"
+        Title="Дом-музей А.А. Киселева" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Tuapse/kiselev-house-museum.jpg" MaxWidth="600" Width="560" Margin="5" Height="233" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Великий русский художник-передвижник Александр Александрович Киселев бывал в этом районе побережья и, будучи пораженным красотой местных пейзажей, в 1902 году даже построил себе в Туапсе дом. В 1975 году это здание было признано памятником архитектуры, а 1988 году к 150-летию со дня рождения художника в нем открыли музей."/><LineBreak/><Run Text="Изначально эта выставочная площадка являлась филиалом Краеведческого музея, но позже стала самостоятельным учреждением. Экспозиция дома-музея Киселева посвящена жизни и творчеству художника с 1902 года, т.е. с момента его переезда в Туапсе."/><LineBreak/><Run Text="Здесь воссоздан интерьер того времени, представлены личные вещи Киселева, его фотографии и семейные документы. И, конечно же, вы увидите картины живописца, воспевавшего в своих поздних полотнах туапсинские пейзажи."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

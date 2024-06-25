@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Kavkazsky.Kav1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Kavkazsky"
+        mc:Ignorable="d"
+        Title="Свято-Георгиевский храм" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Kavkazsky/svyato-georgievskiy-hram.jpg" MaxWidth="600" Width="466" Margin="5" Height="321" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Свято-Георгиевский храм был построен в 1911 году. В советские годы здание, включая колокольню, разобрали, оставив лишь трапезную и флигель. Здесь располагались Горисполком и ГорОНО. В 1999 г. строение было частично возвращено верующим. Богослужебный зал разместился во флигеле."/><LineBreak/><Run Text="В ходе реставрации здание покрыли свежей краской, восстановили каменные наличники и фризы. Храм увенчал восьмигранный световой барабан под сферическим золотым куполом. В настоящее время в Свято-Георгиевском соборе ведутся богослужения. Здесь же организуется просветительская работа с молодёжью."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

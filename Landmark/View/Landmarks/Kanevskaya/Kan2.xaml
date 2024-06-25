@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Kanevskaya.Kan2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Kanevskaya"
+        mc:Ignorable="d"
+        Title="Храм Пантелеимона Целителя" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Kanevskaya/tserkov-panteleimona-tselitelya.jpg" MaxWidth="600" Width="405" Margin="5" Height="297" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Храм Пантелеимона Целителя в станице Каневской был построен относительно недавно и первое время функционировал как часовня. Лишь в 2011-ом году, в Вербное воскресенье 17-го апреля, состоялась первая Божественная литургия и часовенка стала полноценной церковью. А в 2014-ом году при храме появились две воскресные школы — для детей и взрослых."/><LineBreak/><Run Text="Сегодня Пантелеймоновская церковь является одним из самых привлекательных мест для туристов в станице, ведь по сей день вокруг неё облагораживаются все новые и новые территории, а также продолжается активная социальная деятельность православных центров при храме."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

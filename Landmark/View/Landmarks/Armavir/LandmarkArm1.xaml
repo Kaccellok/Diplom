@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Armavir.LandmarkArm1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Armavir"
+        mc:Ignorable="d"
+        Title="Духовно-патриотический комплекс Мемориал Фортштадт" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Armavir/forshtad.jpg" MaxWidth="600" Width="560" Margin="5" Height="233" />
+                <TextBlock TextWrapping="WrapWithOverflow" Text="Духовно-патриотический комплекс Мемориал Форштад расположен на вершине Стрижибкиной горы в пригороде Армавира. Построен в честь 300-летия Кубанского казачества, 200-летия основания крепости Прочный Окоп. Комплекс включает в себя пятнадцатиметровый позолоченный Поклонного креста, часовню Александра Невского с особой архитектурой, смотровую площадку, с которой виден практически весь город. У основания часовни были перезахоронены останки четверых безымянных воинов, найденных при рытье котлована под фундамент фермы."/>
+                </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

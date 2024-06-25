@@ -1,0 +1,25 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Gelendzhik.Gel4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Gelendzhik"
+        mc:Ignorable="d"
+        Title="Джанхотский бор" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Gelendzhik/dzhanhotsky-pine-forest-of-pitsunda-pine.jpg" MaxWidth="600" Width="560" Margin="5" Height="233" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Этот реликтовый лес, расположенный в окрестностях Геленджика возле села Дивноморское, является памятником природы Краснодарского края. Джанхотский бор – один из крупнейших в России массивов пицундской сосны, занесенной в Красную книгу."/><LineBreak/><Run Text="Он находится над морским побережьем, и местами сосны растут на крутых обрывах. Хвоя этих уникальных растений длиннее, чем у обычных сосен, что позволяет им выделять гораздо больше фитонцидов."/><LineBreak/><Run Text="Отдыхающие посещают Джанхотский бор, чтобы подышать целебным воздухом, напоенным смолистым сосновым ароматом, и насладиться окружающим природным великолепием. Говорят, что слово «джанхот» переводится с адыгейского языка как «счастливый человек». Именно так здесь чувствуют себя туристы, ведь дышится среди сосен невероятно легко, а созерцание природы доставляет эстетическое наслаждение."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Window>

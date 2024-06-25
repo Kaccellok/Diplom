@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Krasnodar.Krd4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Krasnodar"
+        mc:Ignorable="d"
+        Title="Улица Красная" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Krasnodar/street-krasnodar.jpg" MaxWidth="600" Width="462" Margin="5" Height="310" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Центральная городская улица тоже находится в перечне мест, которые обязательно нужно посмотреть в Краснодаре. В отличие от названия города, к коммунизму она не имеет отношения: название появилось еще в 1888-м. Версий происхождения имени две: улицу окрестили или за красоту, или же за обилие стоявших на ней зданий из красного кирпича."/><LineBreak/><Run Text="По праздникам часть улицы перекрывают, превращая ее в пешеходную зону. По всей длине находятся достопримечательности: здание Законодательного собрания, Памятник гуляющим собачкам, цветочные часы, Памятник казакам, здание Правительства, а также бесчисленные музеи, театры, стадионы и библиотеки."/><LineBreak/><Run Text="Особенно стоит отметить Александровскую или Триумфальную арку – изящное красное сооружение в псевдорусском стиле. Высота арки – 12 м, ширина – 3 м. "/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

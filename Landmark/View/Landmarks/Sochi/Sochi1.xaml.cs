@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace Landmark.View.Landmarks.Sochi
+{
+    /// <summary>
+    /// Логика взаимодействия для Sochi1.xaml
+    /// </summary>
+    public partial class Sochi1 : Window
+    {
+        public Sochi1()
+        {
+            InitializeComponent();
+        }
+
+        private void btn_GoBack_Click(object sender, RoutedEventArgs e)
+        {
+            Districts.Info.Sochi sochi = new Districts.Info.Sochi();
+            sochi.Show();
+            this.Close();
+        }
+    }
+}

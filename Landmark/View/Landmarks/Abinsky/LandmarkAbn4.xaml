@@ -1,0 +1,28 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Abinsky.LandmarkAbn4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Abinsky"
+        mc:Ignorable="d"
+        Title="Памятник Скорбящей Матери" Height="450" Width="800" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+
+                <Image Source="/View/Landmarks/Abinsky/pamyatnik1.jpg" Width="300" Margin="5" />
+                <TextBlock TextWrapping="WrapWithOverflow" Text="Храм Рождества Пресвятой Богородицы в поселке Ахтырский Абинского района (Краснодарский край) строился в течение десяти лет: 1997-2007 гг. Православный приход в поселке был воссоздан в 1993 году, первые богослужения совершали в то время во временно приспособленном помещении. В 1997 было начато строительство новой церкви на средства прихожан и благотворительные пожертвования. Основной объем: высокий пятиглавый четверик с полуглавиями на фасадах, над западным притвором устроена звонница, увенчанная высоким шатром. При въезде на территорию храма установлен Памятный знак казакам - первым поселенцам станицы, с перечислением их имен. Усилиями настоятеля при храме создан живописный водоем и сказочная детская площадка. "/>
+                <Image Source="/View/Landmarks/Abinsky/pamyatnik2.jpg" Width="300" Margin="5"/>
+                
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,51 @@
+﻿<Window x:Class="Landmark.View.Districts.Info.Anapa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Districts.Info"
+        mc:Ignorable="d"
+        Title="Анапа" Height="450" Width="800" WindowStartupLocation="CenterScreen" FontFamily="Times New Roman" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel >
+            <UniformGrid Columns="10">
+                <Button Content="🢦"
+        FontSize="22"
+        Background="Transparent"
+        Name="btn_GoBack" Click="btn_GoBack_Click"
+        />
+            </UniformGrid>
+            <Image Source="/View/Districts/Info/Anapa.png" Height="200" Width="300"/>
+            
+            <ScrollViewer Margin="10" Width="350" CanContentScroll="True">
+                <StackPanel Height="160" Width="350" >
+                    
+                    <Button x:Name="btn_landmarksAnapa2" Click="btn_landmarksAnapa2_Click" Margin="5" Content="Анапский маяк" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa3" Click="btn_landmarksAnapa3_Click" Margin="5" Content="Армянская церковь Сурб Геворг" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa4" Click="btn_landmarksAnapa4_Click" Margin="5" Content="Археологический музей Горгиппия" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa5" Click="btn_landmarksAnapa5_Click" Margin="5" Content="Краеведческий музей" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa6" Click="btn_landmarksAnapa6_Click" Margin="5" Content="Памятник А.С. Пушкину" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa7" Click="btn_landmarksAnapa7_Click" Margin="5" Content="Русские ворота Анапы" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa8" Click="btn_landmarksAnapa8_Click" Margin="5" Content="Свято-Онуфриевский храм" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa9" Click="btn_landmarksAnapa9_Click" Margin="5" Content="Храм Серафима Саровского" Width="300" Height="30"/>
+                    <Button x:Name="btn_landmarksAnapa10" Click="btn_landmarksAnapa10_Click" Margin="5" Content="Часовня Осии пророка" Width="300" Height="30"/>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
+
+        <ScrollViewer Grid.Column="1" Margin="0,10,0,10">
+            <TextBlock x:Name="tbDescDistrict" TextWrapping="Wrap" FontSize="18"><Run Text="Дата основания: 1781 год"/><LineBreak/><Run Text="Население: 82 695 чел. (2023 г.)"/><LineBreak/><Run Text="Телефонный код: +7 86133"/><LineBreak/><Run Text="Площадь: 59,0 км²"/><LineBreak/><Run Text="Автомобильный код: 23, 93, 123, 193"/><LineBreak/><Run Text="Море: Черное"/><LineBreak/><Run/><LineBreak/><Run Text="Город-курорт на юге России, в Краснодарском крае."/><LineBreak/><Run/><LineBreak/><Run Text="Это климатический и бальнеологический курорт (преимущественно детско-подростковый). Город краевого подчинения и административный центр муниципального образования «Город-курорт Анапа»."/><LineBreak/><Run/><LineBreak/><Run Text="Анапа находится в юго-западной части Краснодарского края, на берегу Анапской бухты Чёрного моря. Город расположен в 1,5 тыс. км к югу от Москвы, в 190 км к западу от Краснодара, в 360 км к северо-западу от Сочи, на стыке Главного Кавказского хребта и Таманского полуострова."/><LineBreak/><Run/><LineBreak/><Run Text="В 2011 году Анапа получила почётное звание «Город воинской славы»."/></TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Window>

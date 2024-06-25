@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Krymsky.Krym1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Krymsky"
+        mc:Ignorable="d"
+        Title="Церковь Казанской иконы Божьей Матери" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Krymsky/tserkov-kazanskoy-ikony-bozhey-materi.jpg" MaxWidth="600" Width="485" Margin="5" Height="304" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="История Казанской церкви началась в 1944 г., когда был основан приход. Верующим было предоставлено здание в аренду. В 1950-х на его месте был построен молитвенный дом."/><LineBreak/><Run Text="Современный храм возводился с 2003 по 2009 гг. Оно представляет собой вытянутый четверик с полуцилиндрической кровлей и четырёхгранной апсидой. Фасад оформлен закомарами и фризом с орнаментальной кладкой. Завершают композицию световой барабан с барочным куполом и восьмигранная звонница."/><LineBreak/><Run Text="Церковь значительно пострадала во время наводнения 2012 года. После трагедии здание восстанавливали практически с нуля. Сегодня церковь действует."/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

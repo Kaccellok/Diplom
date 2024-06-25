@@ -1,0 +1,24 @@
+﻿<Window x:Class="Landmark.View.Landmarks.Ust_Labinsky.UL2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Landmark.View.Landmarks.Ust_Labinsky"
+        mc:Ignorable="d"
+        Title="Историко-краеведческий музей" Height="450" Width="800" ResizeMode="NoResize" FontFamily="Times New Roman" FontSize="18" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Margin="5">
+                <UniformGrid Columns="10">
+                    <Button Content="🢦"
+FontSize="22"
+Background="Transparent"
+Name="btn_GoBack"
+Click="btn_GoBack_Click"/>
+                </UniformGrid>
+                <Image Source="/View/Landmarks/Ust-Labinsky/kraevedcheskiy-muzey-2.jpg" MaxWidth="600" Width="465" Margin="5" Height="272" />
+                <TextBlock TextWrapping="WrapWithOverflow"><Run Text="Усть-Лабинский музей был основан в 1914 году коллекционером и краеведом М.И. Петренко. В годы немецкой оккупации экспонаты были полностью уничтожены. Возрождение учреждения произошло в 1958 году. Пост директора занял основатель — Михаил Петренко."/><LineBreak/><Run Text="Экспозиция посвящена истории Усть-Лабинского района, затрагивает мезозойский период, античность, становление крепости, дореволюционную эпоху и советское время."/><LineBreak/><Run Text="Особую ценность для музея представляют образцы декоративно-прикладного искусства, макет Александровской крепости, коллекция самоваров XIX века, подлинная мебель дореволюционной эпохи, коллекция античных амфор."/><LineBreak/><Run/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
